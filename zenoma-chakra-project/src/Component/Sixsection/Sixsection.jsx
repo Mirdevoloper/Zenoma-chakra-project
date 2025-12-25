@@ -8,7 +8,7 @@ const Sixsection = () => {
         <Container>
 
 
-            <Box w='1000px'>
+            <Box w='1000px'  m='0px auto'>
 
                 <Box bg='#F9EFF4' m='0px auto' borderRadius={'20px'} >
 

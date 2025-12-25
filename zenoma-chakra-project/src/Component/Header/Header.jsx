@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <Container >
-      <Box w='1000px'>
+      <Box w='1000px'  m='0px auto'>
 
         <Flex alignItems={'center'} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
 

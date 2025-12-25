@@ -7,7 +7,7 @@ const Secondsection = () => {
     return (
 
         <Container >
-            <Box w='1200px'>
+            <Box w='1000px'  m='0px auto'>
                 <Box w='500px' m='0px auto'>
                     <Box textAlign={'center'} m='30px'>
                         <Button borderRadius={'20px'} bg='#FFE6F2' color='#B12468'>Testimonial</Button>

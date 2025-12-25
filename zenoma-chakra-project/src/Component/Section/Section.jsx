@@ -10,7 +10,7 @@ const Section = () => {
     return (
 
         <Container>
-            <Box w='1000px'   >
+            <Box w='1000px'  m='0px auto'  >
                 <Box m={{base: '0px auto', md: '0px', lg: '0px' }} w='350px' h='320px' p='30px' >
                     <Box >
                         <Button bg='#FFE6F2' color='#B12468' borderRadius={'20px'} m='30px 0px 20px 0px' >Our Service</Button>

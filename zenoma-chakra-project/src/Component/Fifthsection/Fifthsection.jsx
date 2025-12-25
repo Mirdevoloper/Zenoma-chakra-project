@@ -10,7 +10,7 @@ const Fifthsection = () => {
 
         <Container>
 
-            <Box  w='1000px' >
+            <Box  w='1000px'  m='0px auto' >
 
                 <Box  mt='50px'>
                     <Image src={sitimg} alt='' />

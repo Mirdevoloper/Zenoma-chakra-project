@@ -7,7 +7,7 @@ const Thirdsection = () => {
 
 
         <Container>
-            <Box w='1000px'>
+            <Box w='1000px' m='0px auto'>
 
                 <Box w='400px' m='0px auto'>
                     <Box textAlign={'center'} m='30px 0px'>

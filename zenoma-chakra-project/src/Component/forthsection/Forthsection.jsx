@@ -8,7 +8,7 @@ export const Forthsection = () => {
 
         <Container>
 
-            <Box w='1000px'>
+            <Box w='1000px'  m='0px auto'>
 
                 <Box w='500px' m='0px auto' pt='50px' textAlign={'center'} p='30px' >
                    
