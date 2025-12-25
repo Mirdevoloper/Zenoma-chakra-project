@@ -10,8 +10,8 @@ const Section = () => {
     return (
 
         <Container>
-            <Box w='100%' m='0px auto'  >
-                <Box m={{ base: '0px auto', md: '0px', lg: '0px' }} w='350px' h='320px' p='30px' >
+            <Box w='1000px'   >
+                <Box m={{base: '0px auto', md: '0px', lg: '0px' }} w='350px' h='320px' p='30px' >
                     <Box >
                         <Button bg='#FFE6F2' color='#B12468' borderRadius={'20px'} m='30px 0px 20px 0px' >Our Service</Button>
                         <Heading lineHeight={'35px'}
@@ -26,7 +26,7 @@ const Section = () => {
                 </Box>
 
                 <Flex gap='6' alignItems='center' flexDirection={{ base: 'column', md: 'row', lg: 'row' }} alignContent={{ base: 'center' }} >
-                    <Box w={{ base: '350px', md: '400px', lg: '400px' }} bg='#F9EFF4' mt="60px">
+                    <Box w={'100%'} bg='#F9EFF4' mt="60px">
                         <Box p='30px 0px 0px 20px'>
                             <Image src={curtun} alt='' />
                         </Box>
@@ -44,7 +44,7 @@ const Section = () => {
                         </Box>
                     </Box>
 
-                    <Box w={{ base: '350px', md: '400px', lg: '400px' }} bg='#F9EFF4' mt="30px">
+                    <Box w={'100%'} bg='#F9EFF4' mt="30px">
                         <Box p='30px 0px 0px 20px' >
                             <Image src={curtun} alt='' />
                         </Box>
@@ -62,7 +62,7 @@ const Section = () => {
                         </Box>
                     </Box>
 
-                    <Box w={{ base: '350px', md: '400px', lg: '400px' }} bg='#F9EFF4' >
+                    <Box w={'100%'} bg='#F9EFF4' >
                         <Box p='30px 0px 0px 20px'>
                             <Image src={jukar} alt='' />
                         </Box>
@@ -82,7 +82,7 @@ const Section = () => {
 
 
                 <Flex justifyContent={'center'}>
-                    <Flex bg='#B12468' alignItems={'center'} borderRadius={'10px'} w={{ base: '80%', md: '100%', lg: '100%' }} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} mt='40px'>
+                    <Flex bg='#B12468' alignItems={'center'} borderRadius={'10px'} w='100%' justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} mt='40px'>
 
                         <Flex color='#fff' flexDirection={{ base: 'column', md: 'row', lg: 'row' }}>
                             <Flex alignItems={'center'} p='20px' justifyContent={{base:'center', md:'', lg:''}}>

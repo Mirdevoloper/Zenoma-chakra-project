@@ -9,18 +9,22 @@ const Fifthsection = () => {
     return (
 
         <Container>
-            <Box>
-                <Box p='40px 0px' w='100%'>
+
+            <Box  w='1000px' >
+
+                <Box  mt='50px'>
                     <Image src={sitimg} alt='' />
                 </Box>
 
 
-                <Box p='0px 0px 0px 80px'>
+                <Box p='0px 0px 0px 0px'>
                     <Image src={logolip} alt='' />
                 </Box>
 
                 <Flex justifyContent={'space-around'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} alignItems={'center'} gap='6'>
-                    <Box w='400px'>
+
+
+                    <Box w='400px' p={{base:'0px 0px 0px 50px', md:'', lg:''}}>
                         <Text p='16px 0px'>Adressess</Text>
 
                         <Heading w='200px' p='16px 0px'>
@@ -36,7 +40,9 @@ const Fifthsection = () => {
 
                         </Field.Root>
                         <Text>
-                            By subscribing, you agree to our Privacy Policy and consent to receive updates from us.
+                            By subscribing, you agree to our Privacy Policy and consent
+                             to receive updates 
+                            from us.
                         </Text>
                     </Box>
 
@@ -48,6 +54,7 @@ const Fifthsection = () => {
                         <Heading>Pricing</Heading>
                         <Heading>Contact</Heading>
                     </Box>
+
                     <Box>
                         <Text>Social Media</Text>
                         <Heading>Facebook</Heading>

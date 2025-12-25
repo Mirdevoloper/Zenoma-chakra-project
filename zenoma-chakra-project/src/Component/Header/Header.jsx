@@ -7,13 +7,13 @@ const Header = () => {
 
 
   return (
-    <Container>
-      <Box maxW={{ base: '500px', md: '800px', lg: '100%' }} m='0px auto'>
+    <Container >
+      <Box w='1000px'>
 
-        <Flex  alignItems={'center'} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
+        <Flex alignItems={'center'} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
 
-          <Box w='300px' h='120px' p='20px'>
-            <Heading fontSize={'30px'} lineHeight={'50px'}>
+          <Box w='400px' h='120px' p='20px' >
+            <Heading fontSize={'40px'} lineHeight={'50px'}>
               Empower Your
               Spirit & Strength
             </Heading>
@@ -35,22 +35,28 @@ const Header = () => {
         </Flex>
 
 
-        <Box w='100%'>
+        <Box >
           <Image src={jimimg} alt='' />
         </Box>
 
         <Flex alignItems={'center'} justifyContent={'space-between'} gap={'6'} mt='30px' flexDirection={{ base: 'column', md: 'row', lg: 'row' }}>
-          <Flex w={{ base: '300px', md: '300px', lg: '300px' }} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'}>
-            <Text fon tSize={'22px'} >250+</Text>
-            <Text fontSize={'12px'} p='8px 4px'>Built on Client Trust</Text>
+          <Flex w={'100%'} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'} alignItems={'center'} >
+            <Flex m='0px auto'>
+              <Text fontSize={'22px'}  >250+</Text>
+              <Text fontSize={'16px'} p='8px 4px' >Built on Client Trust</Text>
+            </Flex>
           </Flex>
-          <Flex w={{ base: '300px', md: '300px', lg: '300px' }} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'}>
-            <Text fontSize={'22px'} >250+</Text>
-            <Text fontSize={'12px'} p='8px 4px'>Built on Client Trust</Text>
+          <Flex w={'100%'} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'} alignItems={'center'}>
+            <Flex m='0px auto'>
+              <Text fontSize={'22px'}  >250+</Text>
+              <Text fontSize={'16px'} p='8px 4px' >Built on Client Trust</Text>
+            </Flex>
           </Flex>
-          <Flex w={{ base: '300px', md: '300px', lg: '300px' }} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'}>
-            <Text fontSize={'22px'} >4.9*</Text>
-            <Text fontSize={'12px'} p='8px 4px'>Built on Client Trust</Text>
+          <Flex w={'100%'} h='80px' bg='#F9EFF4' p={'50px 40px'} color={'#B12468'} borderRadius={'10px'}alignItems={'center'}>
+            <Flex m='0px auto'>
+              <Text fontSize={'22px'}  >250+</Text>
+              <Text fontSize={'16px'} p='8px 4px' >Built on Client Trust</Text>
+            </Flex>
           </Flex>
         </Flex>
 

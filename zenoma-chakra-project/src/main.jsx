@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
 
-    children: [
+  },
       {
         path: '/header',
         element: <Header/>
@@ -50,8 +50,8 @@ const router = createBrowserRouter([
         element: <Sixsection />
       }
 
-    ]
-  }
+    
+  
 ]);
 
 createRoot(document.getElementById('root')).render(

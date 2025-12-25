@@ -7,10 +7,10 @@ const Thirdsection = () => {
 
 
         <Container>
-            <Box>
+            <Box w='1000px'>
 
-                <Box w='450px' m='0px auto'>
-                    <Box textAlign={'center'} mt='40px'>
+                <Box w='400px' m='0px auto'>
+                    <Box textAlign={'center'} m='30px 0px'>
                         <Button borderRadius={'20px'} bg='#FFE6F2' color='#B12468'>Testimonial</Button>
                     </Box>
                     <Box textAlign={'center'}>
@@ -19,25 +19,27 @@ const Thirdsection = () => {
                     </Box>
                 </Box>
 
-                <Box  >
-                    <Flex  p={{base:'0px 0px 0px 50px', md:'30px 0px 0px 0px', lg:'30px 0px 0px 0px'}} w='900px' pt='40px' m='0px auto' justifyContent={'space-around'}  flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
 
-                        <Box w='420px' >
-                            <Image src={jim} alt='' />
+                <Flex pt='40px' m='0px 100px' gap='30px' justifyContent={'space-between'} alignItems={'center'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
+
+                    <Box  >
+                        <Image src={jim} alt='' />
+                    </Box>
+
+                    < Box bg='#fff' p=' 0px 0px' w='300px'>
+                        <Text fontSize={'16px'}>
+                            “Joining the program transformed my life—stronger body, clearer mind, and a calm spirit. Highly recommend to anyone seeking balance.”
+                        </Text>
+
+                        <Box p='20px 0px'>
+                            <Text >Niko Willum</Text>
+                            <Text fontSize={'12px'}>Participants</Text>
+
                         </Box>
+                    </Box>
 
-                        <Box w='380px' bg='#fff'>
-                            <Text fontSize={'24px'} mt='50px'>
-                                “Joining the program transformed my life—stronger body, clearer mind, and a calm spirit. Highly recommend to anyone seeking balance.”
-                            </Text>
-                            <Box mt='30px'>
-                                <Text>Niko Willum</Text>
-                               <Text fontSize={'12px'}>Participants</Text>
-                            </Box>
-                        </Box>
+                </Flex>
 
-                    </Flex>
-                </Box>
 
             </Box>
         </Container>
