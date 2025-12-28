@@ -7,6 +7,7 @@ import Thirdsection from './Component/Thirdsection/Thirdsection'
 import { Forthsection } from './Component/forthsection/Forthsection'
 import Fifthsection from './Component/Fifthsection/Fifthsection'
 import Sixsection from './Component/Sixsection/Sixsection'
+import Navbar from './Component/Navbar/Navbar'
 
 
 
@@ -17,14 +18,16 @@ const App = () => {
   return (
 
     <div>
-        /<Header />
 
-       <Section />
-       <Secondsection />     
-       <Thirdsection />   
-       <Forthsection />  
+      <Navbar />
+      <Header />
+
+      <Section />
+      <Secondsection />
+      <Thirdsection />
+      <Forthsection />
       <Fifthsection />
-      <Sixsection />   
+      <Sixsection />
 
 
 

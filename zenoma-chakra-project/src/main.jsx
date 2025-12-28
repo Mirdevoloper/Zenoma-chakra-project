@@ -12,6 +12,7 @@ import Thirdsection from './Component/Thirdsection/Thirdsection.jsx'
 import { Forthsection } from './Component/forthsection/Forthsection.jsx'
 import Fifthsection from './Component/Fifthsection/Fifthsection.jsx'
 import Sixsection from './Component/Sixsection/Sixsection.jsx'
+import Navbar from './Component/Navbar/Navbar.jsx'
 
 
 const router = createBrowserRouter([
@@ -19,8 +20,18 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    
 
   },
+
+  
+    
+  
+     { 
+        path: '/navbar',
+        element: <Navbar />
+      },
+
       {
         path: '/header',
         element: <Header/>
