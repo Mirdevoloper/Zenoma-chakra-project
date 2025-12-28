@@ -2,7 +2,7 @@ import { Box, Button, Container, Flex, Heading, Image, Text } from '@chakra-ui/r
 import React from 'react'
 import jim from './../../../public/image/jim.png'
 const Thirdsection = () => {
-
+   
     return (
 
 
@@ -15,6 +15,7 @@ const Thirdsection = () => {
                     </Box>
                     <Box textAlign={'center'}>
                         <Heading>Reviews From Clients</Heading>
+                       
                         <Text>Hear directly from our clients about their transformative journeys and how our yoga and fitness programs have impacted their lives.</Text>
                     </Box>
                 </Box>

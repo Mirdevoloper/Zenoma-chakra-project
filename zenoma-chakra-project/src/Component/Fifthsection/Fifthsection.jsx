@@ -8,26 +8,27 @@ const Fifthsection = () => {
 
     return (
 
-        <Container w={{base:'100%', md:'100%', lg:'100%'}}>
+        <Container w={{ base: '100%', md: '100%', lg: '100%' }} p='50px 0px'>
 
-            <Box  w='1200px'  m='0px auto' >
+            <Box w='1200px' m='0px auto'  >
 
-                <Box  mt='50px'>
+                <Box >
                     <Image src={sitimg} alt='' />
                 </Box>
 
 
-                <Box p='0px 0px 0px 0px'>
-                    <Image src={logolip} alt='' />
-                </Box>
+
 
                 <Flex justifyContent={'space-around'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} alignItems={'center'} gap='6'>
 
 
-                    <Box w='400px' p={{base:'0px 0px 0px 50px', md:'', lg:''}}>
-                        <Text p='16px 0px'>Adressess</Text>
+                    <Box w='400px' p={{ base: '0px 0px 0px 50px', md: '', lg: '' }} mt='30px'>
+                        <Box>
+                            <Image src={logolip} alt='' />
+                        </Box>
+                        <Text p='20px 0px'>Adressess</Text>
 
-                        <Heading w='200px' p='16px 0px'>
+                        <Heading w='200px' >
                             224 Agnibina Avenue,
                             Jhenaidah, Dst
                         </Heading>
@@ -41,14 +42,14 @@ const Fifthsection = () => {
                         </Field.Root>
                         <Text>
                             By subscribing, you agree to our Privacy Policy and consent
-                             to receive updates 
+                            to receive updates
                             from us.
                         </Text>
                     </Box>
 
 
                     <Box>
-                        <Text>Navigation</Text>
+                        <Text p='20px 0px'>Navigation</Text>
                         <Heading>About</Heading>
                         <Heading>Classes</Heading>
                         <Heading>Pricing</Heading>
@@ -56,7 +57,7 @@ const Fifthsection = () => {
                     </Box>
 
                     <Box>
-                        <Text>Social Media</Text>
+                        <Text p='20px 0px' >Social Media</Text>
                         <Heading>Facebook</Heading>
                         <Heading>Instagram</Heading>
                         <Heading>Twitter</Heading>
