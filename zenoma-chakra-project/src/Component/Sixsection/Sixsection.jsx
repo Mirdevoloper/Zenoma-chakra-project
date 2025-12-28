@@ -5,10 +5,10 @@ const Sixsection = () => {
 
     return (
 
-        <Container>
+        <Container w={{base:'100%', md:'100%', lg:'100%'}}>
 
 
-            <Box w='1000px'  m='0px auto'>
+            <Box w='1200px'  m='0px auto'  p={{base:'20px 30px'}}>
 
                 <Box bg='#F9EFF4' m='0px auto' borderRadius={'20px'} >
 

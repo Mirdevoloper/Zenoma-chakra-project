@@ -6,8 +6,9 @@ const Secondsection = () => {
 
     return (
 
-        <Container >
-            <Box w='1000px'  m='0px auto'>
+        <Container w={{base:'100%', md:'100%', lg:'100%'}} >
+
+            <Box w='1200px'  m='0px auto' p={{base:'20px 30px'}}>
                 <Box w='500px' m='0px auto'>
                     <Box textAlign={'center'} m='30px'>
                         <Button borderRadius={'20px'} bg='#FFE6F2' color='#B12468'>Testimonial</Button>
@@ -22,10 +23,10 @@ const Secondsection = () => {
 
                     <Flex  flexDirection={{ base: 'column', md: 'row', lg: 'row' }} gap='4'>
 
-                        <Image src={hudipic} alt=''mt='20px' />
-                        <Image src={hudipic} alt='' mt='20px' />
-                        <Image src={hudipic} alt=' 'mt='20px' />
-                        <Image src={hudipic} alt=' 'mt='20px' />
+                        <Image src={hudipic}  alt=''mt='20px' />
+                        <Image src={hudipic}   alt='' mt='20px' />
+                        <Image src={hudipic}  alt=' 'mt='20px' />
+                        
                     </Flex>
 
 

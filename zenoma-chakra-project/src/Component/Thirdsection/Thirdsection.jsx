@@ -6,8 +6,8 @@ const Thirdsection = () => {
     return (
 
 
-        <Container>
-            <Box w='1000px' m='0px auto'>
+        <Container w={{base:'100%', md:'100%', lg:'100%'}}>
+            <Box w='1200px' m='0px auto'  p={{base:'20px 30px'}}>
 
                 <Box w='400px' m='0px auto'>
                     <Box textAlign={'center'} m='30px 0px'>
@@ -20,13 +20,13 @@ const Thirdsection = () => {
                 </Box>
 
 
-                <Flex pt='40px' m='0px 100px' gap='30px' justifyContent={'space-between'} alignItems={'center'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
+                <Flex pt='40px' justifyContent={'space-between'} alignItems={'center'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
 
                     <Box  >
                         <Image src={jim} alt='' />
                     </Box>
 
-                    < Box bg='#fff' p=' 0px 0px' w='300px'>
+                    < Box bg='#fff' p={{base:'30px 0px'}}  w='300px'>
                         <Text fontSize={'16px'}>
                             “Joining the program transformed my life—stronger body, clearer mind, and a calm spirit. Highly recommend to anyone seeking balance.”
                         </Text>

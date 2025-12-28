@@ -9,8 +9,8 @@ const Section = () => {
 
     return (
 
-        <Container>
-            <Box w='1000px'  m='0px auto'  >
+        <Container w={{base:'100%', md:'100%', lg:'100%'}}>
+            <Box w='1200px'  m='0px auto' p={{base:'20px 30px'}} >
                 <Box m={{base: '0px auto', md: '0px', lg: '0px' }} w='350px' h='320px' p='30px' >
                     <Box >
                         <Button bg='#FFE6F2' color='#B12468' borderRadius={'20px'} m='30px 0px 20px 0px' >Our Service</Button>

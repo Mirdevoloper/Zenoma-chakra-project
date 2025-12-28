@@ -8,9 +8,9 @@ const Fifthsection = () => {
 
     return (
 
-        <Container>
+        <Container w={{base:'100%', md:'100%', lg:'100%'}}>
 
-            <Box  w='1000px'  m='0px auto' >
+            <Box  w='1200px'  m='0px auto' >
 
                 <Box  mt='50px'>
                     <Image src={sitimg} alt='' />

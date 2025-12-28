@@ -7,8 +7,8 @@ const Header = () => {
 
 
   return (
-    <Container >
-      <Box w='1000px'  m='0px auto'>
+    <Container w={{base:'100%', md:'100%', lg:'100%'}} >
+      <Box w='1200px'  m='0px auto' p={{base:'20px 30px'}}>
 
         <Flex alignItems={'center'} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', lg: 'row' }} >
 
@@ -36,7 +36,7 @@ const Header = () => {
 
 
         <Box >
-          <Image src={jimimg} alt='' />
+          <Image src={jimimg} alt=''  />
         </Box>
 
         <Flex alignItems={'center'} justifyContent={'space-between'} gap={'6'} mt='30px' flexDirection={{ base: 'column', md: 'row', lg: 'row' }}>
