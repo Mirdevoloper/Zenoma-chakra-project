@@ -17,11 +17,12 @@ const App = () => {
   return (
 
     <div>
-        <Header />
+        /<Header />
+
        <Section />
        <Secondsection />     
        <Thirdsection />   
-       <Forthsection /> 
+       <Forthsection />  
       <Fifthsection />
       <Sixsection />   
 

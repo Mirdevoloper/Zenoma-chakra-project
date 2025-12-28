@@ -8,11 +8,11 @@ const Fifthsection = () => {
 
     return (
 
-        <Container w={{ base: '100%', md: '100%', lg: '100%' }} p='50px 0px'>
+        <Container w={{ base: '100%', md: '100%', lg: '100%' }}>
 
-            <Box w='1200px' m='0px auto'  >
+            <Box w='1200px' m='0px auto'   p='50px 30px'>
 
-                <Box >
+                <Box  >
                     <Image src={sitimg} alt='' />
                 </Box>
 
@@ -65,8 +65,6 @@ const Fifthsection = () => {
                     </Box>
 
                 </Flex>
-
-
             </Box>
         </Container>
     )
