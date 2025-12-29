@@ -1,51 +1,59 @@
-import { Box, Button, Flex, Heading, Link, Menu, Text, Portal, IconButton, Image, Container } from '@chakra-ui/react'
 import React from 'react'
-import { Links } from 'react-router'
+import { Box, Button, Flex, Heading,  Menu, Text, Portal, IconButton, Image, Container } from '@chakra-ui/react'
+import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoReorderThree } from "react-icons/io5";
 import logolip from './../../../public/image/logolif.png'
+import { Link } from 'react-router'
 
 const Navbar = () => {
 
     const listItems = [
 
-        { title: 'Home', value: 'home' },     
-        { title: 'Service', Contact: 'service' },
-        { title: 'Pricing', value: 'pricing' },
+        { route: '/home', title: 'Home', value: 'home' },     
+        { route: '/service', title: 'Service', Contact: 'service' },
+        { route: '/pricing', title: 'Pricing', value: 'pricing' },
     ]
 
     return (
 
 <Container w='100%'>
 
-        <Box w='1200px' m='0px auto'>
-
+        <Box w='1200px' m='0px auto' background="#F9EFF4"    >
             <Flex          
                 background="#F9EFF4"                
                 p="16px"             
-                justifyContent="space-between"
+                justifyContent='space-evenly'
                 alignItems="center"
                 display={{ base: "none", md: "none", lg: "flex" }}
             >
-                <Box pl='50px'>
-                    <Image src={logolip} alt=''/>
+                <Box >
+                    <Image src={logolip} alt='' />
                 </Box>
-                <Flex >
+
+                <Flex >                   
                     <Flex >
                         {
                             listItems.map(item => {
-                                return (
 
-                                    <Link >
-                                        <Text  padding={'5px'} fontWeight={'bold'} color={'#253822'} _hover={{ bg: "#DE7D47" }}>{item.title}</Text>
+                                return (
+                                  
+                                   <Link to={item?.route} m='40px' fontSize={'0px'} >
+                                    
+                                    
+                                    
+                                       <Text  padding={'5px'} fontWeight={'bold'} color={'#253822'} _hover={{ bg: "#DE7D47" }}>{item.title}</Text>
                                     </Link>
 
+                                    
+                                    
                                 )
                             })
                         }
                     </Flex>
-                   
-
+                               
                 </Flex>
+
+                <Button ml='90px' color={'#2D1420'} bg='#fff'>Contact <Box bg='#B12468' borderRadius={'20px'}><IoIosArrowRoundForward  /></Box> </Button>
 
             </Flex>
 
@@ -59,7 +67,9 @@ const Navbar = () => {
                 alignItems="center"
                 display={{ base: "flex", md: "flex", lg: "none" }}
             >
-                 <Image src={logolip} alt=''/>
+
+                 <Image src={logolip} alt=''  ml='20px'/>
+
                 <Box>
                     <Menu.Root>
                         <Menu.Trigger asChild>

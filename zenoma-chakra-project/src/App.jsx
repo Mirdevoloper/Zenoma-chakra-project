@@ -13,21 +13,26 @@ import Navbar from './Component/Navbar/Navbar'
 
 
 
+
+
+
 const App = () => {
 
   return (
 
     <div>
 
-      <Navbar />
-      <Header />
 
+      <Navbar />
+     
+
+       <Header />
       <Section />
       <Secondsection />
       <Thirdsection />
       <Forthsection />
       <Fifthsection />
-      <Sixsection />
+      <Sixsection /> 
 
 
 

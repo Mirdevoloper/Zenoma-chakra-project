@@ -13,6 +13,9 @@ import { Forthsection } from './Component/forthsection/Forthsection.jsx'
 import Fifthsection from './Component/Fifthsection/Fifthsection.jsx'
 import Sixsection from './Component/Sixsection/Sixsection.jsx'
 import Navbar from './Component/Navbar/Navbar.jsx'
+import Home from './Component/Navbar/Home.jsx'
+import Service from './Component/Navbar/Service.jsx'
+import Pricing from './Component/Navbar/Pricing.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,55 +23,67 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    
+    children: [
+      {
+        path: '/home',
+        element: <Home />
+      },
+      {
+        path: '/service',
+        element: <Service />
+      },
+      {
+        path: '/pricing',
+        element: <Pricing />
+      }
+    ]
 
   },
+  {
+    path: '/navbar',
+    element: <Navbar />
+  },
 
-  
-    
-  
-     { 
-        path: '/navbar',
-        element: <Navbar />
-      },
 
-      {
-        path: '/header',
-        element: <Header/>
-      },
-      {
-        path: '/section',
-        element: <Section />
-      },
-      {
-        path: '/secondsection',
-        element: <Secondsection />
-      },
-      {
-        path: '/thirdsection ',
-        element: <Thirdsection />
-      },
-      {
-        path: '/forthsection',
-        element: <Forthsection />
-      },
-      {
-        path: '/ fifthsection',
-        element: <Fifthsection />
-      },
-      {
-        path: '/sixsection',
-        element: <Sixsection />
-      }
+  {
+    path: '/header',
+    element: <Header />
+  },
+  {
+    path: '/section',
+    element: <Section />
+  },
+  {
+    path: '/secondsection',
+    element: <Secondsection />
+  },
+  {
+    path: '/thirdsection ',
+    element: <Thirdsection />
+  },
+  {
+    path: '/forthsection',
+    element: <Forthsection />
+  },
+  {
+    path: '/ fifthsection',
+    element: <Fifthsection />
+  },
+  {
+    path: '/sixsection',
+    element: <Sixsection />
+  }
 
-    
-  
+
+
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </Provider>
   </StrictMode>,
 )
